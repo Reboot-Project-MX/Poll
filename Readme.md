@@ -1,4 +1,4 @@
-# Poll V 0.0.1
+# Poll V 0.0.2
 
 Encuesta sencilla para evaluar a las compañias de seguros realizada en php,js,bootstrap5.
 
