@@ -9,8 +9,7 @@
     <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
     <title>A-Medicall Encuesta de aseguradoras</title>
     <link rel="canonical" href="https://www.rebootproject.mx">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,8 +18,7 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./">A-Medicall</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -44,10 +42,8 @@
 
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 1"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -95,12 +91,9 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
                     </svg>
 
                     <h2>Anónimo</h2>
@@ -108,12 +101,9 @@
                         the first column.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
                     </svg>
 
                     <h2>Rapido</h2>
@@ -121,12 +111,9 @@
                         second column.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
                     </svg>
 
                     <h2>Analiza</h2>
@@ -140,36 +127,26 @@
             <hr class="featurette-divider">
 
             <div class="featurette">
-                <form class="needs-validation" novalidate="">
+                <form class="needs-validation" action="save_and_send.php" method="post">
                     <div class="row g-3">
-                        <div class="col-sm-6">
-                            <label for="firstName" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="col-sm-12">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre Completo" value="" name="name" required>
                             <div class="invalid-feedback">
-                                Valid first name is required.
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <label for="lastName" class="form-label">Last name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                            <div class="invalid-feedback">
-                                Valid last name is required.
+                                Ingresa un nombre valido.
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <label for="email" class="form-label">Email <span
-                                    class="text-muted">(Optional)</span></label>
-                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
                             <div class="invalid-feedback">
-                                Please enter a valid email address for shipping updates.
+                                Ingresa un email valido.
                             </div>
                         </div>
                         <div class="col-12">
-                            <label for="phone" class="form-label">Telefono Celular <span
-                                    class="text-muted">(Optional)</span></label>
-                            <input type="text" class="form-control" id="phone" placeholder="55XXXXXXXX">
+                            <label for="phone" class="form-label">Telefono Celular <span class="text-muted">(Opcional)</span></label>
+                            <input type="text" class="form-control" id="phone" placeholder="55XXXXXXXX" name="phone">
                             <div class="invalid-feedback">
                                 Por favor ingresa un número de celular valido a 10 digitos
                             </div>
@@ -179,8 +156,7 @@
 
                     <hr class="my-4">
                     <label for="message" class="form-label">Mensaje: </label>
-                    <textarea class="form-control" id="message" rows="3"
-                        placeholder="¿En que te podemos ayudar?"></textarea>
+                    <textarea class="form-control" id="message" rows="3" placeholder="¿En que te podemos ayudar?" required name="message"></textarea>
 
                     <hr class="my-4">
 
@@ -206,13 +182,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <link href="styles.css" rel="stylesheet">
 </body>
