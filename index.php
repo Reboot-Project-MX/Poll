@@ -21,19 +21,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Encuesta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Estadísticas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+                <?php include "includes/menu.php" ?>
             </div>
         </nav>
     </header>
@@ -131,7 +119,7 @@
                     <div class="row g-3">
                         <div class="col-sm-12">
                             <label for="name" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Nombre Completo" value="" name="name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre Completo" value="" name="name" minlength="10" required>
                             <div class="invalid-feedback">
                                 Ingresa un nombre valido.
                             </div>
@@ -146,7 +134,7 @@
                         </div>
                         <div class="col-12">
                             <label for="phone" class="form-label">Telefono Celular <span class="text-muted">(Opcional)</span></label>
-                            <input type="text" class="form-control" id="phone" placeholder="55XXXXXXXX" name="phone">
+                            <input type="tel" class="form-control" id="phone" placeholder="55XXXXXXXX" name="phone" minlength="10" maxlength="10" pattern="[0-9]{10}">
                             <div class="invalid-feedback">
                                 Por favor ingresa un número de celular valido a 10 digitos
                             </div>
